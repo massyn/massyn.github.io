@@ -12,7 +12,7 @@ jobs:
       
       - name: Run a multi-line script
         run: |
-          echo '|'$(date +'%Y-%M-%d %H:%m:%S')'|'$(ping www.google.com -c 1 -W 2 |grep packets | tail -1 | sed "s/,/\|/g") '|' >> google.md
+          echo '|'$(date +'%Y-%m-%d %H:%M:%S')'|'$(ping www.google.com -c 1 -W 2 |grep packets | tail -1 | sed "s/,/\|/g") '|' >> google.md
           
       - name: Commit and push changes
         run: |
