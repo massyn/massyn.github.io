@@ -33,7 +33,7 @@ def process(folder,out):
             # -- grab the first line of the file
             title = ''
             with open(F,'rt') as q:
-                title = q.readline().replace('# ','')
+                title = q.readline().replace('# ','').strip()
 
             I.write(f"{year}-{month}-{day} [{title}]({F.replace('.md','.html')})\n")
 
