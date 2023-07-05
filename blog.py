@@ -14,7 +14,6 @@ def process(folder,out):
     myYear = ''
     myMonth = ''
     with open(out,'wt') as I:
-        I.write('# Blog\n')
 
         for F in findFiles(folder,'*.md'):
             F = F.replace('\\','/') # convert windows paths to linux
@@ -26,17 +25,17 @@ def process(folder,out):
             day = dte[3]
 
             if year != myYear:
-                I.write(f'## {year}\n')
+                I.write(f'# {year}\n')
 
             if f"{year}-{month}" != myMonth:
-                I.write(f'### {month}\n')
+                I.write(f'## {month}\n')
 
             # -- grab the first line of the file
             title = ''
             with open(F,'rt') as q:
                 title = q.readline().replace('# ','')
 
-            I.write(f"{year}-{month}-{day} [{title}]({F})\n")
+            I.write(f"{year}-{month}-{day} [{title}]({F.replace('.md','.html')})\n")
 
             myYear = year
             myMonth = f"{year}-{month}"
