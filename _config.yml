@@ -1,1 +1,4 @@
-theme: jekyll-theme-midnight
+#theme: jekyll-theme-midnight
+theme: minima
+title: Phil Massyn
+description: Still figuring that out...
