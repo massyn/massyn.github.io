@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: massyn.net
+  link: https://www.massyn.net

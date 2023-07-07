@@ -1,6 +1,7 @@
 ---
 title: "Hello again sakkie"
-date: 2023-07-07
+layout: post
+author: Phil Massyn
 ---
 
 # Test 2
