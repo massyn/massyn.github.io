@@ -2,6 +2,7 @@
 title: "Hello again sakkie"
 layout: post
 author: Phil Massyn
+tag: sample
 ---
 
 # Test 2
