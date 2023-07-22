@@ -1,10 +1,19 @@
 ---
 layout: post
 title: "About the Author"
-author: "Paul Le"
+author: "Phil Massyn"
 categories: journal
 tags: [documentation,sample]
-image: cutting.jpg
+image: uranganpier.jpg
 ---
 
-Hi there! I'm Paul. I’m a physics major turned programmer. Ever since I first learned how to program while taking a scientific computing for physics course, I have pursued programming as a passion, and as a career. Check out [my personal website](https://www.lenpaul.com/) for more information on my other projects (including more Jekyll themes!), as well as some of my writing.
+Hi there!  My name is **Phil Massyn**, an AWS Cloud Security Specialist from Hervey Bay, Queensland, Australia.
+
+![me](https://www.gravatar.com/avatar/d2d5d1145631043da337679b192bafd7?s=300)
+
+I have been programming from the age of 7, when my dad bought a Commodore 64.
+
+## Connect with me
+
+* Twitter – [@massyn](https://twitter.com/massyn)
+* Github – [@massyn](https://github.com/massyn)
