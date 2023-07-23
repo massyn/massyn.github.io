@@ -4,7 +4,6 @@ title: Python code snippits
 permalink: /python
 ---
 
-
 ## Date and time
 
 Convert epoch time to date time
