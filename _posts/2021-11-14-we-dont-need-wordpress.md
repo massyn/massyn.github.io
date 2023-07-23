@@ -16,7 +16,7 @@ My own website has also been operating with Wordpress for quite a while, until r
 
 Many years ago, when [massyn.net](https://www.massyn.net) first came into being, I recall I had the whole thing running as a [Perl](https://www.perl.org/) script, with no database backend.  It was rough -- local text files, no real standards, other than just a script trying to render some HTML.  Back then (I'm talking mid 2000s), the server was running off an old desktop.
 
-![Old setup](2004-computer-setup.png)
+![Old setup](/assets/img/2004-computer-setup.png)
 Yes - I had a convoluted setup on some old hardware!.  I had port 80 (http) opened on my ADSL router, with [DynDNS](https://account.dyn.com/) setup to automatically update the server's FQDN name whenever the IP changed.  Security was not at the top of mind with this setup.
 
 ## Challenges
