@@ -33,7 +33,7 @@ Here's an example of an information flow.  You'll notice that the information fl
 
 Another call out I would also make is to indicate when the initiating connection is the _other way around_.  In many systems, the information flow would follow the network flow as well.  In my example below, the Warehouse Management system would be initiating the network call, pulling the data from the queue (indicated with the red arrow).
 
-![information flow](informationflow.png)
+![information flow](/assets/img/informationflow.png)
 
 ## Identify the actors
 
@@ -111,7 +111,7 @@ It is important to keep an open mind.  Just because something bad hasn't happene
 
 ### Information Flow Diagram
 
-![information flow](informationflow.png)
+![information flow](/assets/img/informationflow.png)
 
 ### Threat Assessment
 
