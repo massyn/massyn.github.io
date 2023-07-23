@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Resillient Software Design"
+title: "Resilient Software Design"
 author: "Phil Massyn"
 categories: engineering
 tags: ["software engineering"]
