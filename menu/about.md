@@ -1,9 +1,16 @@
 ---
 layout: page
-title: Welcome to massyn.github.io!
+title: The blog of Phil Massyn
 permalink: /about
 ---
 
-### Questions?
+Hi there!  My name is **Phil Massyn**, an AWS Cloud Security Specialist from Hervey Bay, Queensland, Australia.
 
-If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=%40massyn)
+![me](https://www.gravatar.com/avatar/d2d5d1145631043da337679b192bafd7?s=300)
+
+I have been programming from the age of 7, when my dad bought a Commodore 64.
+
+## Connect with me
+
+* Twitter – [@massyn](https://twitter.com/massyn)
+* Github – [@massyn](https://github.com/massyn)

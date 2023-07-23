@@ -21,7 +21,7 @@ When these API calls are made, just like you would enter a username and password
 
 ## This was NOT a cyber attack
 
-On September 22nd, 2022, [Optus announced](https://www.optus.com.au/about/media-centre/media-releases/2022/09/optus-notifies-customers-of-cyberattack) ([local copy](2022-09-26-optus-notifies-customers-of-cyberattack.md)) in the media that they suffered a data breach, and that they were the victim of a cyber attack.  I disagree with this statement.
+On September 22nd, 2022, [Optus announced](https://www.optus.com.au/about/media-centre/media-releases/2022/09/optus-notifies-customers-of-cyberattack)  in the media that they suffered a data breach, and that they were the victim of a cyber attack.  I disagree with this statement.
 
 A cyber attack is typically targeted and methodical, using various techniques to find a weakness in a system, and then exploiting it.  In this scenario, while the attacker did perform some of those activities, the main root cause is **Optus left the door open**.  This was straight-up negligence by Optus that resulted in the data being breached.  [Clare O'Neil agrees](https://twitter.com/ClareONeilMP/status/1574361824102711296) with this statement.
 
