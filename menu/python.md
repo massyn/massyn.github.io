@@ -4,6 +4,34 @@ title: Python code snippits
 permalink: /python
 ---
 
+## AWS
+
+### S3
+
+#### Write to an S3 bucket
+```python
+boto3.resource('s3').Bucket(os.environ['S3BUCKET']).put_object(
+    ACL         = 'bucket-owner-full-control',
+    ContentType = 'application/json',
+    Key         = key,
+    Body        = json.dumps(newstate,indent=2,default=str)
+)
+```
+
+#### Read an S3 object
+
+```python
+state = json.loads(boto3.client('s3').get_object(Bucket=os.environ['S3BUCKET'], Key=key)['Body'].read().decode('utf-8'))
+```
+
+### SNS
+
+#### Publish a topic
+
+```python
+boto3.client('sns',region_name = 'ap-southeast-2').publish(TopicArn=os.environ['MonitorTopicSNS'],Message = msg, Subject = subject)
+```
+
 ## Date and time
 
 Convert epoch time to date time
