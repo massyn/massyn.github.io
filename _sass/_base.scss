@@ -20,7 +20,7 @@ body {
   }
 }
 
-h1{
+h1 {
   font-size: 2rem;
 }
 
@@ -30,16 +30,16 @@ h1 a {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $sans-serif-font-family;
-  color: $dark-gray-color;
+  color: $header-color;
 }
 
 a {
   text-decoration: underline;
-  color: $dark-gray-color;
+  color: $link-color;
 }
 
 a:hover {
-  color: $link-color;
+  color: $link-color-hover;
   border-bottom: none;
 }
 
@@ -53,7 +53,7 @@ blockquote {
   margin: 10px 20px 10px;
   padding: 0px 15px;
   border-left: 0.25em solid $extra-light-gray-color;
-  color: $light-gray-color;
+  color: $secondary-background-color;
   line-height: 1.5;
 }
 
