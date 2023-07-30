@@ -9,7 +9,7 @@ pre {
 code {
   padding: .25em .5em;
   font-size: .8rem;
-  background-color: $code-background-color;
+  background-color: $secondary-background-color;
   color: $code-color;
   border-radius: 3px;
 }
@@ -24,7 +24,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: $code-background-color;
+  background-color: $secondary-background-color;
 }
 pre code {
   padding: 0;
