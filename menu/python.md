@@ -8,7 +8,22 @@ permalink: /python
 
 ### S3
 
+#### Read all objects in a bucket
+
+```python
+import boto3
+
+Bucket = "MYBUCKETNAME"
+Prefix = "myPrefix"
+
+for P in boto3.client('s3').get_paginator('list_objects').paginate(Bucket=Bucket,Prefix = Prefix):
+    for k in P['Contents']:
+        print(k['Key'])
+        content = boto3.client('s3').get_object(Bucket=Bucket, Key=k['Key'])['Body'].read().decode('utf-8')
+```
+
 #### Write to an S3 bucket
+
 ```python
 boto3.resource('s3').Bucket(os.environ['S3BUCKET']).put_object(
     ACL         = 'bucket-owner-full-control',
@@ -42,18 +57,35 @@ import datetime
 x = datetime.datetime.fromtimestamp(epoch).strftime('%Y-%m-%d %H:%M:%S')
 ```
 
-Convert Python datetime to a string, and vice verse
+Convert Python datetime to a string
 
 ```python
 import datetime
 
-def timestamp():
-    return datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
-
-def parse_timestamp(t):
+def datestamp_to_string(t):
     return datetime.datetime.strptime(t, '%Y-%m-%d %H:%M:%S')
 ```
 
+Get the current datestamp
+
+```python
+import datetime
+
+def datestamp():
+    return datetime.datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
+
+```
+
+Find the first day of the week
+```python
+import datetime
+
+def firstDayoftheWeek(dte):
+    FDW = dte - datetime.timedelta(days = dte.weekday())
+
+    return FDW
+    # return FDW.strftime('%Y-%m-%d')
+```
 ## Email
 
 Send email through Outlook
